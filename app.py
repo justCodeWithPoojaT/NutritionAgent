@@ -30,8 +30,7 @@ app = Flask(__name__)
 # Credentials are read from environment variables for security.
 # Get your free API key at: https://aistudio.google.com/app/apikey
 # =============================================================================
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "AIzaSyAByyTBbCoZ_Gh90uCGhGjjD-3PwlH7snI")
-
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "AIza....."
 # Google Gemini model identifier
 GEMINI_MODEL_ID = "gemini-2.5-flash"
 
